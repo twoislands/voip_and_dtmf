@@ -1,0 +1,12 @@
+module_path /usr/lib/baresip/modules
+module g711.so
+module alsa.so
+module_app account.so
+module_app menu.so
+module_app ctrl_tcp.so
+module cons.so
+ctrl_tcp_listen 127.0.0.1:4444
+cons_listen 127.0.0.1:5555
+audio_source alsa,default
+audio_player alsa,default
+audio_alert alsa,default

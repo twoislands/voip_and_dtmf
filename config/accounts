@@ -1,0 +1,1 @@
+<sip:1001@pbx.example.net>;auth_user=1001;auth_pass=CHANGE_ME;answermode=auto;dtmfmode=rtpevent;audio_codecs=pcmu,pcma;regint=60
